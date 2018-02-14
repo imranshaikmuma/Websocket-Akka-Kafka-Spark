@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="binancebot$sources"
+		revision="0.1"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180205212951"/>
+	<dependencies>
+		<module organisation="com.typesafe.akka" name="akka-http-testkit_2.11">
+			<revision name="10.0.11" status="release" pubdate="20171201040518" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="44">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3605" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.11/ivy-10.0.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.11/10.0.11/akka-http-testkit_2.11-10.0.11.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="10.0.11" rev-constraint-default="10.0.11" rev-constraint-dynamic="10.0.11" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/"/>
+				<artifacts>
+					<artifact name="akka-http-testkit_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19070" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.11/srcs/akka-http-testkit_2.11-10.0.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.11/10.0.11/akka-http-testkit_2.11-10.0.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream-kafka_2.11">
+			<revision name="0.19" status="release" pubdate="20180126104757" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/akka/reactive-kafka" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="37">
+				<license name="Apache License 2.0" url="http://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="4723" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.akka/akka-stream-kafka_2.11/ivy-0.19.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-kafka_2.11/0.19/akka-stream-kafka_2.11-0.19.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="0.19" rev-constraint-default="0.19" rev-constraint-dynamic="0.19" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="akka-stream-kafka_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="32768" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.akka/akka-stream-kafka_2.11/srcs/akka-stream-kafka_2.11-0.19-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-kafka_2.11/0.19/akka-stream-kafka_2.11-0.19-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kafka" name="kafka-clients">
+			<revision name="0.11.0.1" status="release" pubdate="20170905142945" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://kafka.apache.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3653" time="0" location="/home/netsvsqa/.ivy2/cache/org.apache.kafka/kafka-clients/ivy-0.11.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/0.11.0.1/kafka-clients-0.11.0.1.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="0.11.0.1" rev-constraint-default="0.11.0.1" rev-constraint-dynamic="0.11.0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="kafka-clients" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="943146" time="0" location="/home/netsvsqa/.ivy2/cache/org.apache.kafka/kafka-clients/srcs/kafka-clients-0.11.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/0.11.0.1/kafka-clients-0.11.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-actors">
+			<revision name="2.11.7" status="release" pubdate="20150622161828" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="29">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2815" time="0" location="/home/netsvsqa/.ivy2/cache/org.scala-lang/scala-actors/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.11.7/scala-actors-2.11.7.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/"/>
+				<artifacts>
+					<artifact name="scala-actors" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="180457" time="0" location="/home/netsvsqa/.ivy2/cache/org.scala-lang/scala-actors/srcs/scala-actors-2.11.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.11.7/scala-actors-2.11.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xerial.snappy" name="snappy-java">
+			<revision name="1.1.2.6" status="release" pubdate="20160602134933" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/xerial/snappy-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3450" time="0" location="/home/netsvsqa/.ivy2/cache/org.xerial.snappy/snappy-java/ivy-1.1.2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.2.6/snappy-java-1.1.2.6.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="1.1.2.6" rev-constraint-default="1.1.2.6" rev-constraint-dynamic="1.1.2.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="snappy-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1049625" time="0" location="/home/netsvsqa/.ivy2/cache/org.xerial.snappy/snappy-java/srcs/snappy-java-1.1.2.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.2.6/snappy-java-1.1.2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.jpountz.lz4" name="lz4">
+			<revision name="1.3.0" status="release" pubdate="20141126154014" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/jpountz/lz4-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2738" time="0" location="/home/netsvsqa/.ivy2/cache/net.jpountz.lz4/lz4/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lz4" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50577" time="0" location="/home/netsvsqa/.ivy2/cache/net.jpountz.lz4/lz4/srcs/lz4-1.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-ahc-ws-standalone_2.11">
+			<revision name="1.1.3" status="release" pubdate="20171101181757" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-ws" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4761" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.play/play-ahc-ws-standalone_2.11/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.11/1.1.3/play-ahc-ws-standalone_2.11-1.1.3.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="play-ahc-ws-standalone_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="54058" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.play/play-ahc-ws-standalone_2.11/srcs/play-ahc-ws-standalone_2.11-1.1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.11/1.1.3/play-ahc-ws-standalone_2.11-1.1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="shaded-asynchttpclient">
+			<revision name="1.1.3" status="release" pubdate="20171101181737" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-ws" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2526" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.play/shaded-asynchttpclient/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/1.1.3/shaded-asynchttpclient-1.1.3.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="shaded-asynchttpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="264" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.play/shaded-asynchttpclient/srcs/shaded-asynchttpclient-1.1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/1.1.3/shaded-asynchttpclient-1.1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.25" status="release" pubdate="20170316123632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5377" time="0" location="/home/netsvsqa/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55539" time="0" location="/home/netsvsqa/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="cachecontrol_2.11">
+			<revision name="1.1.2" status="release" pubdate="20170131153148" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/cachecontrol" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3517" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.play/cachecontrol_2.11/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.11/1.1.2/cachecontrol_2.11-1.1.2.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="cachecontrol_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27458" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.play/cachecontrol_2.11/srcs/cachecontrol_2.11-1.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.11/1.1.2/cachecontrol_2.11-1.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.11">
+			<revision name="0.8.0" status="release" pubdate="20161029181157" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3036" time="0" location="/home/netsvsqa/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.8.0/scala-java8-compat_2.11-0.8.0.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63853" time="0" location="/home/netsvsqa/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/srcs/scala-java8-compat_2.11-0.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.8.0/scala-java8-compat_2.11-0.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-ws-standalone_2.11">
+			<revision name="1.1.3" status="release" pubdate="20171101181731" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-ws" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4117" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.play/play-ws-standalone_2.11/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.11/1.1.3/play-ws-standalone_2.11-1.1.3.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="play-ws-standalone_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="26185" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.play/play-ws-standalone_2.11/srcs/play-ws-standalone_2.11-1.1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.11/1.1.3/play-ws-standalone_2.11-1.1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.inject" name="javax.inject">
+			<revision name="1" status="release" pubdate="20091013193500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2506" time="0" location="/home/netsvsqa/.ivy2/cache/javax.inject/javax.inject/ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javax.inject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10928" time="0" location="/home/netsvsqa/.ivy2/cache/javax.inject/javax.inject/srcs/javax.inject-1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.twitter4j" name="twitter4j-stream">
+			<revision name="4.0.3" status="release" pubdate="20150328114201" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://twitter4j.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3568" time="0" location="/home/netsvsqa/.ivy2/cache/org.twitter4j/twitter4j-stream/ivy-4.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/4.0.3/twitter4j-stream-4.0.3.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="4.0.3" rev-constraint-default="4.0.3" rev-constraint-dynamic="4.0.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="twitter4j-stream" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="39711" time="0" location="/home/netsvsqa/.ivy2/cache/org.twitter4j/twitter4j-stream/srcs/twitter4j-stream-4.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/4.0.3/twitter4j-stream-4.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http_2.11">
+			<revision name="10.0.11" status="release" pubdate="20171201040515" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="13">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="2953" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.akka/akka-http_2.11/ivy-10.0.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.11/10.0.11/akka-http_2.11-10.0.11.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="10.0.11" rev-constraint-default="10.0.11" rev-constraint-dynamic="10.0.11" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/"/>
+				<artifacts>
+					<artifact name="akka-http_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="200604" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.akka/akka-http_2.11/srcs/akka-http_2.11-10.0.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.11/10.0.11/akka-http_2.11-10.0.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.softwaremill.reactivekafka" name="reactive-kafka-core_2.11">
+			<revision name="0.10.0" status="release" pubdate="20160225073655" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/softwaremill/reactive-kafka" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="Apache License 2.0" url="http://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="4608" time="0" location="/home/netsvsqa/.ivy2/cache/com.softwaremill.reactivekafka/reactive-kafka-core_2.11/ivy-0.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/softwaremill/reactivekafka/reactive-kafka-core_2.11/0.10.0/reactive-kafka-core_2.11-0.10.0.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="0.10.0" rev-constraint-default="0.10.0" rev-constraint-dynamic="0.10.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="reactive-kafka-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19178" time="0" location="/home/netsvsqa/.ivy2/cache/com.softwaremill.reactivekafka/reactive-kafka-core_2.11/srcs/reactive-kafka-core_2.11-0.10.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/softwaremill/reactivekafka/reactive-kafka-core_2.11/0.10.0/reactive-kafka-core_2.11-0.10.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaj" name="scalaj-collection_2.11">
+			<revision name="1.6" status="release" pubdate="20150213153033" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scalaj/scalaj-collection" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="Apache" url="http://www.opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="2677" time="0" location="/home/netsvsqa/.ivy2/cache/org.scalaj/scalaj-collection_2.11/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaj/scalaj-collection_2.11/1.6/scalaj-collection_2.11-1.6.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalaj-collection_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8138" time="0" location="/home/netsvsqa/.ivy2/cache/org.scalaj/scalaj-collection_2.11/srcs/scalaj-collection_2.11-1.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaj/scalaj-collection_2.11/1.6/scalaj-collection_2.11-1.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="log4j-over-slf4j">
+			<revision name="1.7.12" status="release" pubdate="20150326165139" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="Apache Software Licenses" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4925" time="0" location="/home/netsvsqa/.ivy2/cache/org.slf4j/log4j-over-slf4j/ivy-1.7.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.12/log4j-over-slf4j-1.7.12.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="log4j-over-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="31719" time="0" location="/home/netsvsqa/.ivy2/cache/org.slf4j/log4j-over-slf4j/srcs/log4j-over-slf4j-1.7.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.12/log4j-over-slf4j-1.7.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.7" status="release" pubdate="20150622161702" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="17">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/netsvsqa/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="908307" time="0" location="/home/netsvsqa/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.twitter4j" name="twitter4j-core">
+			<revision name="4.0.3" status="release" pubdate="20150328114039" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://twitter4j.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3767" time="0" location="/home/netsvsqa/.ivy2/cache/org.twitter4j/twitter4j-core/ivy-4.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.3/twitter4j-core-4.0.3.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="4.0.3" rev-constraint-default="4.0.3" rev-constraint-dynamic="4.0.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="twitter4j-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="268317" time="0" location="/home/netsvsqa/.ivy2/cache/org.twitter4j/twitter4j-core/srcs/twitter4j-core-4.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.3/twitter4j-core-4.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream_2.11">
+			<revision name="2.5.9" status="release" pubdate="20180111092826" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.9" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="6">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3381" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/ivy-2.5.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.5.9/akka-stream_2.11-2.5.9.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="2.5.9" rev-constraint-default="2.5.9" rev-constraint-dynamic="2.5.9" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.9"/>
+				<artifacts>
+					<artifact name="akka-stream_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="486381" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.5.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.5.9/akka-stream_2.11-2.5.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="ssl-config-core_2.11">
+			<revision name="0.2.2" status="release" pubdate="20170308094333" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/ssl-config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3001" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe/ssl-config-core_2.11/ivy-0.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.2.2/ssl-config-core_2.11-0.2.2.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="0.2.2" rev-constraint-default="0.2.2" rev-constraint-dynamic="0.2.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="ssl-config-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="49384" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe/ssl-config-core_2.11/srcs/ssl-config-core_2.11-0.2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.2.2/ssl-config-core_2.11-0.2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.2" status="release" pubdate="20171218150638" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2523" time="0" location="/home/netsvsqa/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3997" time="0" location="/home/netsvsqa/.ivy2/cache/org.reactivestreams/reactive-streams/srcs/reactive-streams-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
+			<revision name="2.5.9" status="release" pubdate="20180111092550" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.9" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="18">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3100" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.5.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.5.9/akka-actor_2.11-2.5.9.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="2.5.9" rev-constraint-default="2.5.9" rev-constraint-dynamic="2.5.9" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.9"/>
+				<artifacts>
+					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="522978" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.5.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.5.9/akka-actor_2.11-2.5.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.2" status="release" pubdate="20171006100218" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2875" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe/config/ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="172766" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe/config/srcs/config-1.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
+			<revision name="1.0.5" status="release" pubdate="20161216145943" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2929" time="0" location="/home/netsvsqa/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.5/scala-parser-combinators_2.11-1.0.5.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43234" time="0" location="/home/netsvsqa/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.0.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.5/scala-parser-combinators_2.11-1.0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-json_2.11">
+			<revision name="2.4.6" status="release" pubdate="20151214022024" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4598" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.play/play-json_2.11/ivy-2.4.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.4.6/play-json_2.11-2.4.6.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="play-json_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="35004" time="451" location="/home/netsvsqa/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.4.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.4.6/play-json_2.11-2.4.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310">
+			<revision name="2.5.4" status="release" pubdate="20150610013508" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleJSR310" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<metadata-artifact status="no" details="" size="7112" time="0" location="/home/netsvsqa/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.4/jackson-datatype-jsr310-2.5.4.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-datatype-jsr310" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="37375" time="1384" location="/home/netsvsqa/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/srcs/jackson-datatype-jsr310-2.5.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.4/jackson-datatype-jsr310-2.5.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8">
+			<revision name="2.5.4" status="release" pubdate="20150610013234" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<metadata-artifact status="no" details="" size="7220" time="0" location="/home/netsvsqa/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.4/jackson-datatype-jdk8-2.5.4.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-datatype-jdk8" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="11216" time="147" location="/home/netsvsqa/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/srcs/jackson-datatype-jdk8-2.5.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.4/jackson-datatype-jdk8-2.5.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.5.4" status="release" pubdate="20150609214351" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<metadata-artifact status="no" details="" size="8466" time="0" location="/home/netsvsqa/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="824978" time="542" location="/home/netsvsqa/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.5.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.5.4" status="release" pubdate="20150609212830" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<metadata-artifact status="no" details="" size="6623" time="0" location="/home/netsvsqa/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="241162" time="1433" location="/home/netsvsqa/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.5.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.7" status="release" pubdate="20140804103718" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-convert/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6252" time="0" location="/home/netsvsqa/.ivy2/cache/org.joda/joda-convert/ivy-1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.7/joda-convert-1.7.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="40304" time="0" location="/home/netsvsqa/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.7/joda-convert-1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.8.1" status="release" pubdate="20150615101717" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6469" time="0" location="/home/netsvsqa/.ivy2/cache/joda-time/joda-time/ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="761196" time="608" location="/home/netsvsqa/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-datacommons_2.11">
+			<revision name="2.4.6" status="release" pubdate="20151214021936" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2545" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/ivy-2.4.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.4.6/play-datacommons_2.11-2.4.6.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="play-datacommons_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1588" time="225" location="/home/netsvsqa/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/srcs/play-datacommons_2.11-2.4.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.4.6/play-datacommons_2.11-2.4.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-functional_2.11">
+			<revision name="2.4.6" status="release" pubdate="20151214021953" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2542" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.play/play-functional_2.11/ivy-2.4.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.4.6/play-functional_2.11-2.4.6.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="play-functional_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="9758" time="443" location="/home/netsvsqa/.ivy2/cache/com.typesafe.play/play-functional_2.11/srcs/play-functional_2.11-2.4.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.4.6/play-functional_2.11-2.4.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-iteratees_2.11">
+			<revision name="2.4.6" status="release" pubdate="20151214022002" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3181" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/ivy-2.4.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.4.6/play-iteratees_2.11-2.4.6.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="play-iteratees_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="37879" time="1384" location="/home/netsvsqa/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/srcs/play-iteratees_2.11-2.4.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.4.6/play-iteratees_2.11-2.4.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-stm" name="scala-stm_2.11">
+			<revision name="0.7" status="release" pubdate="20140418004442" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nbronson.github.com/scala-stm/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="BSD" url="https://github.com/nbronson/scala-stm/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2537" time="0" location="/home/netsvsqa/.ivy2/cache/org.scala-stm/scala-stm_2.11/ivy-0.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-stm_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="116149" time="493" location="/home/netsvsqa/.ivy2/cache/org.scala-stm/scala-stm_2.11/srcs/scala-stm_2.11-0.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging-slf4j_2.11">
+			<revision name="2.1.2" status="release" pubdate="20140425062015" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/scala-logging" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3533" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.scala-logging/scala-logging-slf4j_2.11/ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-slf4j_2.11/2.1.2/scala-logging-slf4j_2.11-2.1.2.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-logging-slf4j_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8541" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.scala-logging/scala-logging-slf4j_2.11/srcs/scala-logging-slf4j_2.11-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-slf4j_2.11/2.1.2/scala-logging-slf4j_2.11-2.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.0" status="release" pubdate="20140416051350" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.0/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/home/netsvsqa/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.11.0/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="554963" time="0" location="/home/netsvsqa/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging-api_2.11">
+			<revision name="2.1.2" status="release" pubdate="20140425062029" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/scala-logging" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2710" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.scala-logging/scala-logging-api_2.11/ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-api_2.11/2.1.2/scala-logging-api_2.11-2.1.2.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-logging-api_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6232" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.scala-logging/scala-logging-api_2.11/srcs/scala-logging-api_2.11-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-api_2.11/2.1.2/scala-logging-api_2.11-2.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.5.4" status="release" pubdate="20150609212650" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<metadata-artifact status="no" details="" size="6175" time="0" location="/home/netsvsqa/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="44848" time="1383" location="/home/netsvsqa/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.5.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="shaded-oauth">
+			<revision name="1.1.3" status="release" pubdate="20171101181723" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-ws" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2496" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.play/shaded-oauth/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/1.1.3/shaded-oauth-1.1.3.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="shaded-oauth" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="256" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.play/shaded-oauth/srcs/shaded-oauth-1.1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/1.1.3/shaded-oauth-1.1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-core_2.11">
+			<revision name="10.0.11" status="release" pubdate="20171201040404" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3730" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/ivy-10.0.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.11/10.0.11/akka-http-core_2.11-10.0.11.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="10.0.11" rev-constraint-default="10.0.11" rev-constraint-dynamic="10.0.11" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/"/>
+				<artifacts>
+					<artifact name="akka-http-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="404985" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/srcs/akka-http-core_2.11-10.0.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.11/10.0.11/akka-http-core_2.11-10.0.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream-testkit_2.11">
+			<revision name="2.4.20" status="release" pubdate="20170810124757" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.20" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3490" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.11/ivy-2.4.20.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-testkit_2.11/2.4.20/akka-stream-testkit_2.11-2.4.20.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="2.4.20" rev-constraint-default="2.4.20" rev-constraint-dynamic="2.4.20" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.20"/>
+				<artifacts>
+					<artifact name="akka-stream-testkit_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9146" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.11/srcs/akka-stream-testkit_2.11-2.4.20-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-testkit_2.11/2.4.20/akka-stream-testkit_2.11-2.4.20-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-testkit_2.11">
+			<revision name="2.4.20" status="release" pubdate="20170810124431" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.20" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3691" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.akka/akka-testkit_2.11/ivy-2.4.20.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.20/akka-testkit_2.11-2.4.20.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="2.4.20" rev-constraint-default="2.4.20" rev-constraint-dynamic="2.4.20" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.20"/>
+				<artifacts>
+					<artifact name="akka-testkit_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="33260" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.akka/akka-testkit_2.11/srcs/akka-testkit_2.11-2.4.20-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.20/akka-testkit_2.11-2.4.20-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-parsing_2.11">
+			<revision name="10.0.11" status="release" pubdate="20171201040526" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3109" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/ivy-10.0.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.11/10.0.11/akka-parsing_2.11-10.0.11.pom"/>
+				<caller organisation="default" name="binancebot$sources" conf="test, compile, runtime" rev="10.0.11" rev-constraint-default="10.0.11" rev-constraint-dynamic="10.0.11" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/"/>
+				<artifacts>
+					<artifact name="akka-parsing_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63785" time="0" location="/home/netsvsqa/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/srcs/akka-parsing_2.11-10.0.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.11/10.0.11/akka-parsing_2.11-10.0.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
