@@ -25,3 +25,9 @@ To run this project and see the live trades on Spark Streaming console:
   
 ![screenshot from 2018-02-14 10-12-37](https://user-images.githubusercontent.com/24683611/36211885-71de16e2-1170-11e8-8414-2d9aac6ca047.png)
 
+7. Now we can connect spark to listen to the same port and stream trades on Spark:
+  ./bin/spark-shell --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.2.0
+  val input = spark.  readStream.  format("kafka").  option("subscribe", "binance").  option("kafka.bootstrap.servers",    "localhost:9092").  load. select('value cast "string")
+  input.writeStream.format("console").option("truncate",false).start()
+
+![screenshot from 2018-02-14 10-22-32](https://user-images.githubusercontent.com/24683611/36212156-3d351444-1171-11e8-8007-de71edf93940.png)
